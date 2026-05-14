@@ -42,6 +42,12 @@ TrackFlow solves this by connecting project scope, team hierarchy, task ownershi
 - JSON file storage for the local workspace
 - CSS custom properties and responsive layout styling
 
+## Hosting Approach
+
+TrackFlow is structured as a web application and can be adapted for full web hosting with a deployed frontend, persistent backend, authentication, and shared database storage. For this course project, the app is intentionally run through local hosting so the team can demonstrate the complete product workflow without requiring a paid hosting service, production database, or live user accounts.
+
+The local version still reflects the expected hosted-app experience: users sign in by role, project data is persisted through the local API, and the interface behaves like a full browser-based business application.
+
 ## Getting Started
 
 Install dependencies:
