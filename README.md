@@ -44,9 +44,15 @@ TrackFlow solves this by connecting project scope, team hierarchy, task ownershi
 
 ## Hosting Approach
 
-TrackFlow is structured as a web application and can be adapted for full web hosting with a deployed frontend, persistent backend, authentication, and shared database storage. For this course project, the app is intentionally run through local hosting so the team can demonstrate the complete product workflow without requiring a paid hosting service, production database, or live user accounts.
+TrackFlow is structured as a web application and can be adapted for full web hosting with a deployed frontend, persistent backend, authentication, and shared database storage. For this course project, the primary editable version is intentionally run through local hosting because the MVP stores project data on the local machine through the local Node.js API.
 
-The local version still reflects the expected hosted-app experience: users sign in by role, project data is persisted through the local API, and the interface behaves like a full browser-based business application.
+For presentation access, a view-only MVP demo is available on Netlify:
+
+[https://trackflow-enti333-presentation.netlify.app](https://trackflow-enti333-presentation.netlify.app)
+
+The Netlify version is locked to the packaged sample workspace so instructors and viewers can explore the role-based UI, dashboards, deliverables, tasks, team hierarchy, submission records, risk flags, and final report without changing the project data. Editing, submissions, reviews, imports, exports, resets, and other write actions are disabled on the hosted demo.
+
+The local version is the editable version used by the project owner/team. It reflects the expected hosted-app experience: users sign in by role, project data is persisted through the local API, and the interface behaves like a full browser-based business application while keeping the MVP data stored locally.
 
 ## Getting Started
 
@@ -115,8 +121,6 @@ Additional project documentation is in the `docs/` folder:
 - [Technical architecture](docs/ARCHITECTURE.md)
 - [Role permissions](docs/ROLE_PERMISSIONS.md)
 - [AI-assisted development notes](docs/AI_ASSISTED_DEVELOPMENT.md)
-
-For teammate setup and commit expectations, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Repository Scope
 
